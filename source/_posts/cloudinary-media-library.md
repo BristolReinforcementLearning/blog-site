@@ -1,5 +1,5 @@
 ---
-title: '08 - Cloudinary Media Library'
+title: '10 - Cloudinary Media Library'
 date: 2021-08-28
 image: https://res.cloudinary.com/artisanstatic/photos.jpg
 comments: false

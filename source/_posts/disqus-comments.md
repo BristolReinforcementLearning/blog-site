@@ -1,5 +1,5 @@
 ---
-title: '04 - Disqus Comments'
+title: '06 - Disqus Comments'
 date: 2021-08-24
 image: https://res.cloudinary.com/artisanstatic/conversation.jpg
 comments: false
