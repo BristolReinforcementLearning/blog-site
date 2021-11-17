@@ -2,28 +2,18 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'baseUrl' => 'https://bristol-rl-group.netlify.app',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'RL Reading Group',
+        'description' => 'Official society website',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
+        'name' => 'BristolReadingGroup',
     ],
     'links' => [
-        'twitter' => 'https://twitter.com/johndoe',
-        'github' => 'https://github.com/johndoe',
-    ],
-    'services' => [
-        'cmsVersion' => '~2.10',
-        'analytics' => 'UA-XXXXX-Y',
-        'disqus' => 'artisanstatic',
-        'formcarry' => 'XXXXXXXXXXXX',
-        'cloudinary' => [
-            'cloudName' => 'artisanstatic',
-            'apiKey' => '365895137117119',
-        ],
+        'su-webpage' => 'https://www.bristolsu.org.uk/',
+        'github' => 'https://github.com/BristolReinforcementLearning',
     ],
     'collections' => [
         'posts' => [
@@ -32,7 +22,7 @@ return [
             'extends' => '_layouts.post',
             'section' => 'postContent',
             'isPost' => true,
-            'comments' => true,
+            'comments' => false,
             'tags' => [],
             'hasTag' => function ($page, $tag) {
                 return collect($page->tags)->contains($tag);
