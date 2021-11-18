@@ -5,7 +5,7 @@
 @section('content')
     <h1>Contact</h1>
 
-    <form action="https://formcarry.com/s/{{ $page->services->formcarry }}" method="post">
+    <form action="https://formcarry.com/s/tb8xm6m_Jfx" method="post"  accept-charset="UTF-8">
         <div>
             <label for="sender">Name</label><br>
             <input type="text" name="sender" id="sender" required>

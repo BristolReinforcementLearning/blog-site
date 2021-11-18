@@ -4,12 +4,12 @@ return [
     'production' => false,
     'baseUrl' => 'https://bristol-rl-group.netlify.app',
     'site' => [
-        'title' => 'RL Reading Group',
+        'title' => 'Bristol Reinforcement Learning',
         'description' => 'Official society website',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'BristolReadingGroup',
+        'name' => 'BristolRL',
     ],
     'links' => [
         'su-webpage' => 'https://www.bristolsu.org.uk/',
