@@ -4,6 +4,9 @@
 
 @section('content')
     <h1>{{ $page->title }}</h1>
+    @if ($page->author)
+        <h3>Author: {{$page->author}}</h3>
+    @endif        
 
     @if ($page->image)
         <img src="{{ $page->image }}" style="object-fit: cover; height: 250px; width: 100%;">

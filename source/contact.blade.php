@@ -5,7 +5,7 @@
 @section('content')
     <h1>Contact</h1>
 
-    <form action="https://formcarry.com/s/tb8xm6m_Jfx" method="post"  accept-charset="UTF-8">
+    <form action="https://formcarry.com/s/tb8xm6m_Jfx" method="post" accept-charset="UTF-8">
         <div>
             <label for="sender">Name</label><br>
             <input type="text" name="sender" id="sender" required>
@@ -21,7 +21,7 @@
             <textarea name="message" id="message" required></textarea>
         </div>
 
-        <input type="text" name="_gotcha" style="display: none;">
+        <input type="hidden" name="_gotcha">
 
         <input type="submit" name="submit" value="Send">
     </form>

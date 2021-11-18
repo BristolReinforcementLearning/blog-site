@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
+<script src="https://carrier.formcarry.com/js/v1.js"></script>
 <body>
     <section>
         <header>
