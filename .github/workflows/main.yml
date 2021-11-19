@@ -1,11 +1,11 @@
 name: Pull request on issue
-inputs:
-  secret:
-    required: true
-    description: "Github PAT"
 
 on:
   issues:
+    inputs:
+      secret:
+        required: true
+        description: "Github PAT"
   
 jobs:
   create:
