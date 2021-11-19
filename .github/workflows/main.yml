@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Pull request on issue
+
+on:
+  issues:
+  
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    steps:
+      - name: create branch
+        uses: peterjgrainger/action-create-branch@v2.0.1
+        with:
+          # The branch to create
+          branch: post-<random-number>
+      - name: download file
+        run: wget ${{ github.event.issue.body }} -O source/_posts/
+      - name: commit and push new file
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add .
+          git commit -m "New post"
+          git push -u origin post-<random-number>
+      - name: create pull request towards the main branch
+        uses: peter-evans/create-pull-request@v3.10.1
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          commit-message: Auto Pull Request
+          title: New post pr
+          body: Auto-created Pull Request
+          branch: post-<random-number> # The branch where you commit
+          base: master # Don't forget to specify the right base branch here
