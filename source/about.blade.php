@@ -13,14 +13,14 @@
     <a href="https://www.bristolsu.org.uk/groups/bristol-rl" target="_blank">Bristol SU link</a>
 
     <h2>List of awesome members</h2>
-    Max Yang
-    Merle Zhang
+    - Max Yang
+    - Merle Zhang
 
     We really appreciate your support!
 
     <h2>Committee</h2>
-    Mihai Anca - President
-    Stefan Radic Webster - Secretary and Equality Officer
-    Jonathan David Thomas - Treasurer 
+    - Mihai Anca - President
+    - Stefan Radic Webster - Secretary and Equality Officer
+    - Jonathan David Thomas - Treasurer 
 
 @endsection
