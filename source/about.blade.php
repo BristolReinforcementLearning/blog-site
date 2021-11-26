@@ -11,4 +11,16 @@
     <p>We also run socials which include pub trips and board games. The society is a great way to meet people with similar academic interests with no prerequisite to joining apart from a willingness to learn and interact in the group.</p>    
 
     <a href="https://www.bristolsu.org.uk/groups/bristol-rl" target="_blank">Bristol SU link</a>
+
+    <h2>List of awesome members</h2>
+    Max Yang
+    Merle Zhang
+
+    We really appreciate your support!
+
+    <h2>Committee</h2>
+    Mihai Anca - President
+    Stefan Radic Webster - Secretary and Equality Officer
+    Jonathan David Thomas - Treasurer 
+
 @endsection
